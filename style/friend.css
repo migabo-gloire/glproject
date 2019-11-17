@@ -29,12 +29,10 @@ h1{
 
 
 /*header*/
-.header{//overflow:none;
- //height:30px;
+.header{
+ 
     background:grey;
     border: 2px solid green;
-//background-color:;
- 
     border-right-style: none;
     border-bottom-style: none;
     border-left-style: none;
@@ -43,56 +41,46 @@ h1{
 
 }
 
-ul{list-style-type: none;
+ul{
+    list-style-type: none;
     margin-top: 25px;
     margin-bottom: 25px;
-    //margin-right: 10px;
+    
     margin-left: 0px;
-    //border-right: 2px  solid white;
-
+  
    }
 
 
-ul li{display:inline;
- margin-left: 50px;
- //box-shadow: 10px 10px white;
-// margin:2px  20px;
+ul li{
+    display:inline;
+    margin-left: 50px;
+
 
  
 
 
     
 }
-ul li a{text-decoration: none;
-padding:40px 23px;
-border-radius: 2px solid blue;
-//background-color:lightgrey;
-color: white;
-margin-left: 10px;
-//text-shadow:2px white;
-padding: 14px 25px;
-text-align: center;
+ul li a{
+    text-decoration: none;
+    padding:40px 23px;
+    border-radius: 2px solid blue;
 
-     margin-left: 50px;
-font-size: 40px;
-//color:#fff332222;
-color: bisque;
+    color: white;
+    margin-left: 10px;
+    padding: 14px 25px;
+    text-align: center;
+    margin-left: 50px;
+    font-size: 40px;
+    color: bisque;
 }
 
 
-ul li a:link {
-    //background-color: yellow;
-}
 
-ul li a:visited {
-    //color: red;
 
-}
 
 ul li a:hover {
-    //background-color: lightgreen;
-    //padding:12px;
-    //font-size: 22px;
+   
     border-radius:20px;
 }
 
@@ -104,13 +92,10 @@ ul li a:active {
 /*content style   */
 .conntent{
     display:flex;
-    flex-direction: ;
-    justify-content: ;
-    
 }
 /*left content csss*/
 .left{
-margin:0px
+margin:0px;
 padding:0px;
 border:white 2px solid;
 border-radius: 20px;
@@ -118,7 +103,7 @@ border-top-style: none;
 border-right-style: none;
 border-left-style: none;
 font-size:17px;
-//box-sizing: border-box;
+
 display:flex;
  ;
     justify-content: space-round;
@@ -133,17 +118,23 @@ flex:1;
 padding:0px;
 }
 
-.descriptionofchat{flex:2;
-//border-left: 2px solid white;
-color:yellow;padding:0px;}
+.descriptionofchat{
+    flex:2;
+
+   color:yellow;padding:0px;}
 /*image background communication image logo*/
-img{border:2px white solid;
+img{
+    border:2px white solid;
     border-radius: 10px;text-align:center;}
 .content1{
-text-align:center;color:red;background:red;}
+text-align:center;color:red;
+background:red;
+}
 
-.descriptionofchat h1{color:white;margin:0px;}
-.descriptionofchat p{color:green;margin:0px;}
+.descriptionofchat h1{
+    color:white;margin:0px;}
+.descriptionofchat p{
+    color:green;margin:0px;}
 
 
 

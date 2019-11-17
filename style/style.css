@@ -2,9 +2,11 @@
 /*-- css code* /
 
 /*body  css*/
-body{margin:0px;
-padding:0px;
-background:url("../img/backpac.jpg");}
+body{
+    margin:0px;
+    padding:0px;
+    background:url("../img/backpac.jpg");
+}
 
 /*container*/
 .container{
@@ -14,6 +16,7 @@ background:url("../img/backpac.jpg");}
     border:white solid 3px;
     border-radius: 3px;
     background-color:inherit;
+    
 }
 
 /* --css of container head--*/
@@ -30,11 +33,11 @@ h1{
 
 /*header*/
 .header{
- //overflow:none;
- //height:30px;
+
+ 
     background:grey;
     border: 2px solid green;
-//background-color:;
+
  
     border-right-style: none;
     border-bottom-style: none;
@@ -44,58 +47,41 @@ h1{
 
 }
 
-ul{list-style-type: none;
+ul{
+    list-style-type: none;
     margin-top: 25px;
     margin-bottom: 25px;
-    //margin-right: 10px;
+    
     margin-left: 0px;
-    //border-right: 2px  solid white;
+   
+   
 
    }
 
 
 ul li{display:inline;
  margin-left: 50px;
- //box-shadow: 10px 10px white;
-// margin:2px  20px;
-
- 
 
 
-    
 }
-ul li a{text-decoration: none;
-padding:40px 23px;
-border-radius: 2px solid blue;
-//background-color:lightgrey;
-color: white;
-margin-left: 10px;
-//text-shadow:2px white;
-padding: 14px 25px;
-text-align: center;
-
-     margin-left: 50px;
-font-size: 40px;
-//color:#fff332222;
-color: bisque;
+ul li a{
+    text-decoration: none;
+    padding:40px 23px;
+    border-radius: 2px solid blue;
+    color: white;
+    margin-left: 10px;
+    padding: 14px 25px;
+    text-align: center;
+    margin-left: 50px;
+    font-size: 40px;
+    color: bisque;
 }
 
 
-ul li a:link {
-    //background-color: yellow;
-}
 
-ul li a:visited {
-    //color: red;
 
-}
 
-ul li a:hover {
-    //background-color: lightgreen;
-    //padding:12px;
-    //font-size: 22px;
-    border-radius:20px;
-}
+
 
 ul li a:active {
     color: hotpink;
@@ -104,15 +90,15 @@ ul li a:active {
 
 /*content style   */
 .content{
-    //display:flex;
+    
     flex-direction: columns;
-    //justify-content: flex-start;
+   
     text-align: center;
     
 }
 /*left content csss*/
 .left{
-margin:0px
+margin:0px;
 padding:0px;
 border-radius: 20px;
 margin-bottom:0px;
@@ -127,19 +113,26 @@ box-sizing: border-box;
 
 }
 /*image background communication image logo*/
-img{border:2px white solid;
-border-radius: 20px;    border-radius: 365px;}
-.content1{text-align:right;}
+img{
+    border:2px white solid;
+border-radius: 20px;    
+border-radius: 365px;}
+.content1{
+    text-align:right;
+}
 
-.left h3{text-align:center;color:bisque;
-font-size: 28px;
+.left h3{ 
+    text-align:center;
+    color:bisque;
+    font-size: 28px;
 
 
 }
 /*login form csss*/
-.fo{font-size:17px;
+.fo{
+    font-size:17px;
  text-align:center;
-//margin-left:250px;
+
 display:flex;
 align-items: flex-start;
     color: #ccff00;
@@ -151,17 +144,20 @@ align-items: flex-start;
 border-left:2px white solid;
 box-sizing: border-box;
 background-color:inherit;
-//display:none;
+
 
 }
-.right h2{color:bisque;
-font-size: 28px;text-align:center;
-background-color:inherit;
+.right h2{
+    color:bisque;
+    font-size: 28px;
+    text-align:center;
+    background-color:inherit;
 }
 
 /*form coding*/
 
-form{text-transform: uppercase;
+form{
+    text-transform: uppercase;
     border-left:2px white dotted;
     text-align:center;
     line-height: 20px;
