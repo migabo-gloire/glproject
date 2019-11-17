@@ -1,0 +1,162 @@
+
+/*-- css code* /
+
+/*body  css*/
+body{margin:0px;
+padding:0px;
+background:url("../img/backpac.jpg");}
+
+/*container*/
+.container{
+    width:60%;
+    margin:auto;
+    background:grey;
+    border:white solid 3px;
+    border-radius: 3px;
+    background-color:inherit;
+}
+
+/* --css of container head--*/
+h1{
+    color: #dfeae088;
+    font-size: 40px;
+    font-style: italic;
+    transition: 0.5;
+    margin-bottom: 0px;
+
+
+}
+
+
+/*header*/
+.header{//overflow:none;
+ //height:30px;
+    background:grey;
+    border: 2px solid green;
+//background-color:;
+ 
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-radius: 5px;
+
+
+}
+
+ul{list-style-type: none;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    //margin-right: 10px;
+    margin-left: 0px;
+    //border-right: 2px  solid white;
+
+   }
+
+
+ul li{display:inline;
+ margin-left: 50px;
+ //box-shadow: 10px 10px white;
+// margin:2px  20px;
+
+ 
+
+
+    
+}
+ul li a{text-decoration: none;
+padding:40px 23px;
+border-radius: 2px solid blue;
+//background-color:lightgrey;
+color: white;
+margin-left: 10px;
+//text-shadow:2px white;
+padding: 14px 25px;
+text-align: center;
+
+     margin-left: 50px;
+font-size: 40px;
+//color:#fff332222;
+color: bisque;
+}
+
+
+ul li a:link {
+    //background-color: yellow;
+}
+
+ul li a:visited {
+    //color: red;
+
+}
+
+ul li a:hover {
+    //background-color: lightgreen;
+    //padding:12px;
+    //font-size: 22px;
+    border-radius:20px;
+}
+
+ul li a:active {
+    color: hotpink;
+    text-shadow: 20px 20px blue;
+} 
+
+/*content style   */
+.conntent{
+    display:flex;
+    flex-direction: ;
+    justify-content: ;
+    
+}
+/*left content csss*/
+.left{
+margin:0px
+padding:0px;
+border:white 2px solid;
+border-radius: 20px;
+border-top-style: none;
+border-right-style: none;
+border-left-style: none;
+font-size:17px;
+//box-sizing: border-box;
+display:flex;
+ ;
+    justify-content: space-round;
+}
+/*image class*/
+.img{
+    text-align:center;
+    margin-top:2px;
+margin-left:20px;
+margin-right:10px;
+flex:1;
+padding:0px;
+}
+
+.descriptionofchat{flex:2;
+//border-left: 2px solid white;
+color:yellow;padding:0px;}
+/*image background communication image logo*/
+img{border:2px white solid;
+    border-radius: 10px;text-align:center;}
+.content1{
+text-align:center;color:red;background:red;}
+
+.descriptionofchat h1{color:white;margin:0px;}
+.descriptionofchat p{color:green;margin:0px;}
+
+
+
+
+
+
+/* footer */
+.footer{
+text-align: center;
+    color:white;
+    font-size:20px;
+background:black;
+border-bottom: 10px solid white;
+}
+/* home csss finito*/
+/* amigo sincero:ruhigisha;*/

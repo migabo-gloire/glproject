@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AFhome</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/boot>strap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="style/style.css" type="text/css">
+</head>
+<body>	
+<div class="container"><!--frame class-->
+
+<center><h1>AF Live Chat</h1></center>
+
+<div class="header"><!--the beginning of the header-->
+<ul>
+	<li><a href="home.html">Home</a></li>
+	<li><a href="friend.html">Friend</a></li>
+	<li><a href="chat.html">Chat</a></li>
+</ul>
+</div><!--end of the header class-->
+
+<div class="content"><!--content wrapper-->
+	<div class="left" id="loginContainnerDiv"><!--left content -->
+
+		<section>
+			
+
+		<h3>Alreay have account login</h3>
+		<div class="img">
+			<img src="img/combackground.jpg" width="240px" height="240px">
+		</div>
+     <div class="content1">
+     	
+     	
+     	<form class="fo">
+			<table>
+				<tr><td>username<td/><td><input type="text" placeholder="UserName"><td/></tr>
+
+				<tr><td>Password<td/><td><input type="text" placeholder="PassWord"><td/></tr>
+
+             <tr><td><input type="button" onclick="return register();" value="Sign Up"id="sign"><td/>
+             	<td><a href="friend.html"><input type="button" value="LOGIN" id="signup" onclick="return signin();"></a><td/></tr>
+             </table></form>
+
+    
+</div>
+     
+		</section>
+	</div>   <!--left content end -->
+
+
+
+
+	<div class="right" id="createAccountContainner" style="display:none"><!--right content -->
+
+<section >
+	
+
+		<h2><strong>UR  live chat</strong> new create account..</h2>
+		<div class="fo">
+		<form >
+			<table>
+				<tr><td>First name<td/><td><input type="text" placeholder="FirstName"><td/></tr>
+
+				<tr><td>Last name<td/><td><input type="text" placeholder="Lastname"><td/></tr>
+
+				<tr><td>Username<td/><td><input type="text" placeholder="username"><td/>
+
+
+
+				<tr><td>Sex<td/><td>Male<input type="radio"> Femele<input type="radio"><td/></tr>
+
+				<tr><td>age<td/><td><input type="number"><td/></tr>
+
+					</tr>
+					<tr><td>Password<td/><td><input type="text" placeholder="PassWord"><td/></tr>
+
+				<tr><td>Confirm password<td/><td><input type="text" placeholder="Confirm Password"><td/></tr>
+				<tr><td><td/><td><input type="submit"><td/></tr>	
+			</table>
+		</form>
+		</div>
+		</section>
+	</div><!--right content end  -->
+
+</div><!--end of content wrapper-->
+
+
+<div class="footer"><!--class of footer-->
+	<h2>AF Live Chat</h2>
+	<p>&copy; AF Live Chat 2019-..</p>
+
+</div><!--class footer end-->
+
+
+
+</div><!--end of the frame class-->
+
+<script>
+function register() {
+	document.getElementById('createAccountContainner').style.display = 'block';
+	document.getElementById('loginContainnerDiv').style.display = 'none';
+}
+function signin(){}
+
+</script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
